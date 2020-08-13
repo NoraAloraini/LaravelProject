@@ -31,6 +31,9 @@ Route::delete('/completed-tasks/{task}', 'CompletedTasksController@destroy');
 Auth::routes();
 
 
+//------add new features here-----
+
+
  //------Notification-----
 
 Route::get('/notification', function()
